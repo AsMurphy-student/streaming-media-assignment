@@ -1,0 +1,27 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Streaming Media Assignment",
+  "homepage": "https://github.com/AsMurphy-student/streaming-media-assignment#readme",
+  "bugs": {
+    "url": "https://github.com/AsMurphy-student/streaming-media-assignment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsMurphy-student/streaming-media-assignment.git"
+  },
+  "license": "ISC",
+  "author": "Ashton Murphy",
+  "type": "commonjs",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.32.0"
+  }
+}
